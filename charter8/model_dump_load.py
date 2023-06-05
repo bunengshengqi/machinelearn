@@ -12,7 +12,7 @@ import joblib
 def dump_load():
     """
     模型保存和加载
-    :return:NONE
+    :return:None
     """
     # 1.获取数据
     boston = load_boston()
@@ -25,7 +25,7 @@ def dump_load():
     x_test = transfer.fit_transform(x_test)
     # 4.机器学习--线性回归
     # estimator = Ridge(alpha=1.0)
-    #4.1 模型训练
+    # 4.1 模型训练
     # estimator = RidgeCV(alphas=(0.001, 0.01, 0.1, 1.0, 10, 100)) # 交叉验证
     # estimator.fit(x_train, y_train)
     # 4.2 模型保存
