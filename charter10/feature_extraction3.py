@@ -42,7 +42,5 @@ def chinese_count_demo():
     print(new_data.toarray())
     print(new_data)
 
-
-
 if __name__ == '__main__':
     chinese_count_demo()
