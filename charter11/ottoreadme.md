@@ -18,3 +18,5 @@ https://www.kaggle.com/c/otto-group-product-classification-challenge/overview
      模型基本训练
 
 
+转自:https://zhuanlan.zhihu.com/p/471494060
+(侵权必删)
